@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="veiwport" content="width=device-width , initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/reset.css" media="screen">
+	<script src="https://kit.fontawesome.com/256a8c8f86.js"></script>
+	<script src="js/file_js.js"></script>
+	<title>Web</title>
+</head>
+<body>
+	<div class="container">
+		<div id="light-mode">
+		<i class="fas fa-sun theme" id ="lightmode" onclick="return light_mode()">light mode</i>
+		</div>
+		<div id="header">
+			<span><i class="fas fa-home">My house</i></span>
+			<nav>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">our team</a></li>
+					<li><a href="#">price plan</a></li>
+					<li><a href="#">testimonials</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="slide">
+			<input type="radio" name="r" id="r1" checked>
+			<input type="radio" name="r" id="r2">
+			<input type="radio" name="r" id="r3">
+				<div class="slider sl1"><img src="image/slide1.jpg" alt="Design Picture"></div>
+				<div class="slider"><img src="image/slide2.jpg" alt="Design Picture"  width="1920px" height="900px"></div>
+				<div class="slider"><img src="image/slide3.jpg" alt="Design Picture"  width="1920px" height="900px"></div>
+			<div id="navigation">
+			<label for="r1"></label>
+			<label for="r2"></label>
+			<label for="r3"></label>
+			</div>
+		</div>
+		<div id="about_us">
+			<div id="content">
+				<h1>About us</h1><br>
+				<p> I’m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can’t handle me at my worst, then you sure as hell don’t deserve me at my best. ― Marilyn MonroeInsanity is doing the same thing, over and over again, but expecting different results. ― Narcotics Anonymous. It does not do to dwell on dreams and forget to live. ― J.K. Rowling, Harry Potter and the Sorcerer’s Stone</p>
+				<a href="#">Read more >></a>
+			</div>
+			<div id="design">
+				<span>Adobe Photoshop</span>
+				<div class="percent"><i>85%</i></div>
+				<span>UI</span>
+				<div class="percent"><i>70%</i></div>
+				<span>HTML</span>
+				<div class="percent"><i>55%</i></div>
+				<span>CSS</span>
+				<div class="percent"><i>45%</i></div>
+				<span>Javascript</span>
+				<div class="percent"><i>30%</i></div>
+			</div>
+		</div>
+		<section class="our_service">
+			<h2>Our Services</h2>
+			<article>
+				<figure class="development">
+					<span><i class="fas fa-tv detail-services"></i></span>
+						<p>Web development</p>
+						<p>Everyone knows there’re two hard things about programming, and one of them is naming things. This problem doesn’t get easier when a developer is of a non-english-speaking-descent.</p>
+					
+				</figure>
+				<figure class="development">
+					<span><i class="fas fa-mobile-alt detail-services"></i></span>
+					
+						<p>App Mobile</p>
+						<p>Everyone knows there’re two hard things about programming, and one of them is naming things. This problem doesn’t get easier when a developer is of a non-english-speaking-descent.</p>
+					
+				</figure>
+				<figure class="development">
+					<span><i class="fas fa-sort-amount-up-alt detail-services"></i></span>
+					
+						<p>Digitial Marketing</p>
+						<p>Everyone knows there’re two hard things about programming, and one of them is naming things. This problem doesn’t get easier when a developer is of a non-english-speaking-descent.</p>
+					
+				</figure>
+				<figure class="development">
+					<span><i class="fas fa-paint-brush detail-services"></i></span>
+					
+						<p>Graphics Design</p>
+						<p>Everyone knows there’re two hard things about programming, and one of them is naming things. This problem doesn’t get easier when a developer is of a non-english-speaking-descent.</p>
+				</figure>
+			</article>
+		</section>
+		<section class="profile">
+			<h1>About me</h1>
+			<div class="aboutme">
+				<img src="image/me.jpg" alt="Bui Huy Hieu" id="responsiveimg">
+				<ul>
+					<a href="#">
+						<li><i class="fab fa-facebook"></i></li>
+					</a>
+					<a href="#">
+						<li><i class="fab fa-twitter"></i></li>
+					</a>
+					<a href="#">
+						<li><i class="fab fa-linkedin"></i></li>
+					</a>
+				</ul>
+			</div>
+			<div>
+					<h2>Founder / CEO</h2>
+					<h3>Welcome to the website. How do you feel to my website?.Do you some questions for me? I will respond you soon ^^^ <a id="profile" onclick="return clickProfile()">Click me</a></h3>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2019 Made by Bùi Huy Hiệu</p>
+		</footer>
+	</div>
+</body>
+</html>
