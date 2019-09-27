@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="/bs4/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="/bs4/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/bs4/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bs4/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/256a8c8f86.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>web</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <!-- NAVGITATION -->
+      <nav
+        class="navbar navbar-expand-md bg-dark text-dark  navbar-dark fixed-top text-center"
+      >
+        <!-- BRAND NAV -->
+        <a class="navbar-brand font-weight-bold" href="#">
+          <span class="text-light">Webdeveloper</span>
+        </a>
+        <!-- END BRAND NAV -->
+
+        <!-- REPONSIVE NAV -->
+        <button
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportMenu"
+          class="navbar-toggler "
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--END REPONSIVE NAV -->
+        <!-- NAVGITATION -->
+        <div class="collapse navbar-collapse" id="navbarSupportMenu">
+          <ul class="navbar-nav bg-dark ml-auto ">
+            <li class="nav-item ">
+              <a href="#" class="nav-link text-decoration-none active">Home</a>
+            </li>
+            <!-- DROPDOWN MENU -->
+            <li class="nav-item dropdown  ">
+              <a
+                href="#"
+                class="nav-link text-decoration-none dropdown-toggle"
+                data-toggle="dropdown"
+                data-target="#navDropdown"
+              >
+                Services</a
+              >
+              <ul
+                class="dropdown-menu bg-dark m-auto"
+                aria-labelledby="navDropdown"
+              >
+                <a href="#" class="dropdown-item nav-link">Support</a>
+                <a href="#" class="dropdown-item nav-link">Design</a>
+              </ul>
+            </li>
+            <!-- END DROPDOWN MENU -->
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-decoration-none">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-decoration-none">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-decoration-none">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-decoration-none">Contact US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END NAVIGATION -->
+    </div>
+    <!-- END HEADER -->
+
+    <!-- IMG_BANNER -->
+    <div class="container-fluid text-white text-center img-banner">
+      <h2>Welcome to my website!</h2>
+      <h1>It's nice to meet you</h1>
+      <button type="button" class="btn btn-warning btn-lg text-white">
+        Learn Start
+      </button>
+    </div>
+    <!-- END IMG_BANNER -->
+
+    <!-- OUR SEVICES -->
+    <div class="container ourservices text-center">
+      <h1>SERVICES</h1>
+      <span></span>
+      <p>This is my services of us</p>
+    </div>
+    <!-- Services item -->
+    <div class="col-9 m-auto d-block text-center">
+      <div class="row">
+        <div
+          class="col-lg-4 col-md-4 col-sm-4  d-block m-auto services_content"
+        >
+          <span class="d-block m-auto"
+            ><i class="fas fa-shopping-cart fa-3x"></i
+          ></span>
+          <h2>Shopping - cart</h2>
+          <p>
+            Pictures, abstract symbols, materials, and colors are among the
+            ingredients with which a designer or engineer works.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-warning btn-md text-primary"
+          >
+            Read more
+          </button>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 col-sm-4  d-block m-auto services_content"
+        >
+          <span class="d-block m-auto"
+            ><i class="fas fa-truck-pickup fa-3x"></i
+          ></span>
+          <h2>Choose Delivery</h2>
+          <p>
+            Pictures, abstract symbols, materials, and colors are among the
+            ingredients with which a designer or engineer works.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-warning btn-md text-primary"
+          >
+            Read more
+          </button>
+        </div>
+        <div
+          class="col-lg-4 col-md-4 col-sm-4   d-block m-auto services_content"
+        >
+          <span class="d-block m-auto"
+            ><i class="fas fa-check-square fa-3x"></i
+          ></span>
+          <h2>Check item</h2>
+          <p>
+            Pictures, abstract symbols, materials, and colors are among the
+            ingredients with which a designer or engineer works.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-warning btn-md text-primary"
+          >
+            Read more
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- END Services item -->
+
+    <!-- END OUR SEVICES -->
+    <!-- PORTFOLIO -->
+    <section class="portfolio bg-light">
+      <div class="container text-center">
+        <h1>PORTFOLIO</h1>
+        <span></span>
+        <p>This is portfolio</p>
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-4 col-sm-12 col-10 
+          "
+          >
+            <div class="card">
+              <img src="img/card1.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Threads</h2>
+                <p class="card-text">illustration</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10">
+            <div class="card">
+              <img src="img/card2.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Explore</h2>
+                <p class="card-text">Graphic Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10 ">
+            <div class="card">
+              <img src="img/card3.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Finish</h2>
+                <p class="card-text">Identity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+            <div class="card">
+              <img src="img/card4.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Southwest</h2>
+                <p class="card-text">Website Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+            <div class="card">
+              <img src="img/card5.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Lines</h2>
+                <p class="card-text">Branding</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+            <div class="card">
+              <img src="img/card6.jpg" class="img-card-top" />
+              <div class="card-body">
+                <h2 class="card-title">Window</h2>
+                <p class="card-text">Photography</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END PORTFOLIO -->
+    <!-- ABOUT -->
+    <div class="container-fluid about text-center">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-10 col-12 m-auto d-block">
+          <h2>about</h2>
+          <p>
+            It's you, it's always you if i'm ever gonna fall in love i know it's
+            gon' be you it's you, it's always you met a lot of people, but
+            nobody feels like you so, please, don't break my heart don't tear me
+            apart i know how it starts trust me
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-10 col-12 m-auto d-block">
+          <div class="row text-left about-contents">
+            <div class="col-2 text-right">
+              <span><i class="fas fa-globe-americas fa-5x"></i></span>
+            </div>
+            <div class="col">
+              <p>
+                It's you, it's always you if i'm ever gonna fall in love i know
+                it's gon' be you it's you.
+              </p>
+            </div>
+          </div>
+          <div class="row text-left about-contents">
+            <div class="col-2 text-right">
+              <span><i class="fas fa-clock fa-5x"></i></span>
+            </div>
+            <div class="col">
+              <p>
+                It's you, it's always you if i'm ever gonna fall in love i know
+                it's gon' be you it's you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END ABOUT -->
+  </body>
+</html>
