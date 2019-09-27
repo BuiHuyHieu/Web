@@ -1,0 +1,269 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand {
+  font-size: 25px !important;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 50px !important;
+}
+.navbar-brand span:hover {
+  color: #2980b9 !important;
+  transform: scale(2) !important;
+  transition: 0.5s;
+}
+.navbar-brand:hover {
+  transform: scale(1.2) !important;
+  transition: 0.5s;
+  box-shadow: 10px 20px 20px black;
+}
+
+.navbar-nav li {
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+.navbar-nav li ul a:hover {
+  color: #2c3e50 !important;
+  transition: 0.5s;
+  background: none !important;
+}
+
+.dropdown-item {
+  padding: 10px !important;
+  font-size: 15px !important;
+  min-width: 80px !important;
+  width: 100px !important;
+}
+.dropdown-menu {
+  margin-top: 10px !important;
+  font-size: 15px !important;
+  min-width: 180px !important;
+  max-width: 300px !important;
+  border: 1px solid black !important;
+}
+.dropdown-menu:hover {
+  background: #2980b9 !important;
+  transition: 0.5s;
+}
+
+.container-fluid {
+  padding-top: 16%;
+  background-image: url(../img/img1.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 150%;
+  height: 650px;
+}
+.container-fluid h2 {
+  font-size: 37 px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+.container-fluid h1 {
+  font-size: 70px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container-fluid button {
+  margin-top: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.ourservices h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.ourservices span {
+  position: relative;
+  width: 250px;
+  height: 6px;
+  display: block;
+  background: #3498db;
+  left: 50%;
+  transition: 0.5s;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+.ourservices p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  transition: 1s;
+}
+.services_content {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.services_content .fas {
+  padding-top: 35px;
+  color: #f5f6fa;
+}
+.services_content span {
+  margin-top: 10px !important;
+  height: 120px;
+  width: 120px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #273c75;
+}
+.services_content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin: 10px auto;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+.services_content p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 25px;
+}
+.services_content:hover {
+  background: #4cd137;
+  transition: 1s;
+  opacity: 1;
+  transform: scale(1.05);
+}
+.services_content span:hover {
+  transition: 1s;
+  background: #487eb0;
+  transform: scale(1.05);
+}
+.services_content .fas:hover {
+  transition: 1s;
+  color: rgb(240, 226, 41);
+  transform: scale(1.05);
+}
+
+/* Portfolio */
+.card img {
+  height: 300px;
+}
+.portfolio h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.portfolio span {
+  position: relative;
+  width: 250px;
+  height: 6px;
+  display: block;
+  background: #3498db;
+  left: 50%;
+  transition: 0.5s;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+.portfolio p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 25px;
+}
+.card {
+  margin-top: 50px;
+}
+/* ENd PORTFOLIO */
+/* ABOUT */
+.about {
+  margin-top: 20px;
+  background: rgb(35, 43, 46);
+  padding: 0 !important;
+  height: auto !important;
+}
+.about h2 {
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.about p {
+  padding: 10px;
+  width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  color: whitesmoke;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.about .about-contents span {
+  color: #fbc531;
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.about .about-contents span i:hover {
+  color: #f5f6fa;
+  transition: 1s;
+}
+.about .col-2 {
+  margin: 20px 0;
+  padding: 0 !important;
+}
+.about .col p {
+  font-size: 18px;
+  width: 400px;
+  min-width: 100px;
+  margin: 0 !important;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+}
+.about .about-contents span .fa-globe-americas:hover {
+  animation: animationFrames ease-out 0.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg) scaleX(1) scaleY(1);
+  }
+  100% {
+    transform: translate(115px, -157px) rotate(180deg);
+  }
+}
+.about .about-contents span .fa-clock:hover {
+  animation: animationFrames1 ease 0.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames1 {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg) scaleX(1) scaleY(1);
+  }
+  100% {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-fluid h1 {
+    font-size: 40px;
+    margin-right: 50px;
+  }
+  .container-fluid h2 {
+    margin-top: 200px;
+    margin-right: 50px;
+  }
+  .img-banner {
+    width: 568px !important;
+  }
+}
