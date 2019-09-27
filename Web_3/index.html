@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="/bs4/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="/bs4/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/bs4/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bs4/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/256a8c8f86.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WEB</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="sideBar">
+        <div class="sidebar-header">
+          <h2>Heading Page</h2>
+        </div>
+        <p>My Control</p>
+
+        <ul class="list-unstyled main-navs">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a
+              href="#suportMenuNews"
+              class="dropdown-toggle"
+              data-toggle="collapse"
+              >News</a
+            >
+            <ul class="collapse list-unstyled" id="suportMenuNews">
+              <li><a href="#">VnExpress</a></li>
+              <li><a href="#">BBC</a></li>
+              <li><a href="#">Vnreview</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a
+              href="#suportMenuServices"
+              class="dropdown-toggle"
+              data-toggle="collapse"
+              >Services</a
+            >
+            <ul class="collapse list-unstyled" id="suportMenuServices">
+              <li><a href="#">Photoshop</a></li>
+              <li><a href="#">Design Web</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="list-unstyled button-sidebar text-center">
+          <li><a href="">Back Page</a></li>
+          <li><a href="">Next Page</a></li>
+        </ul>
+      </div>
+      <div class="contents container-fluid">
+        <nav class="navbar navbar-expand-md bg-light navbar-dark">
+          <button
+            type="button"
+            id="buttonSideBar"
+            class="btn btn-outline-primary btn-xs"
+          >
+            <i class="fas fa-align-justify"></i><span class="pl-2">MENU</span>
+          </button>
+        </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="contents_slide">
+              <h1>Learn Responsive Design</h1>
+              <h2>Welcome to our studio</h2>
+              <button type="button" class="btn btn-md button_slide">
+                Learn Start
+              </button>
+              <button type="button" class="btn btn-md button_slide">
+                Explore
+              </button>
+            </div>
+            <div class="carousel-item active">
+              <img
+                src="img/slide1.jpg"
+                alt="Los Angeles"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption">
+                <h2>Computer</h2>
+                <p>Change your life</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slide2.jpg"
+                alt="Chicago"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption">
+                <h2>Photoshop</h2>
+                <p>Color of life</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slide3.jpg"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption">
+                <h2>Web</h2>
+                <p>Change your think</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slide4.jpg"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption">
+                <h2>Life</h2>
+                <p>Change my mind</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+        <!-- Choose social -->
+        <div class="social_container">
+          <div class="social_wrapper">
+            <h1>Social Network</h1>
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-google-plus"></i></span>
+          </div>
+        </div>
+        <!-- End Choose social -->
+        <!-- About team -->
+        <div class="team-container container-fluid">
+          <main>
+            <section class="team">
+              <h1>About team</h1>
+              <div class="card-deck">
+                <div class="card">
+                  <img
+                    src="img/person1.jpg"
+                    alt="Jonathan"
+                    class="card-img-top"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                      <h4 class="card-title">Johnathan</h4>
+                      <h2>ceo / founder</h2>
+                      <p class="card-text">Johnathan is an architect and engineer</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+                <div class="card">
+                  <img src="img/person2.jpg" alt="Peter" class="card-img-top" width="300"
+                  height="300"/>
+                  <div class="card-body">
+                      <h4>Peter</h4>
+                      <h2>Manager</h2>
+                      <p class="card-text">Peter is an architect and engineer</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+                </div>
+                <div class="card">
+                  <img src="img/person3.jpg" alt="Bob"  class="card-img-top" width="300"
+                  height="300"/>
+                  <div class="card-body">
+                      <h4 class="card-title">Bob</h4>
+                      <h2>Designer</h2>
+                      <p class="card-text">Bob is an architect and engineer</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+                </div>
+              
+            </section>
+            <aside class="side_team">
+              <h2>Contact us</h2>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter your email">
+                <div class="input-group-append">
+                  <button class="btn" type="submit">Send</button>
+                </div>
+              </div>
+            </aside>
+          </main>
+        </div>
+        <!-- EndAbout team -->
+        <!-- footer -->
+        <footer class="text-center">
+          <p>&copy; Made By Bui Huy Hieu 2019</p>
+        </footer>
+                <!--End footer -->
+
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $("#buttonSideBar").on("click", function() {
+          $("#sideBar").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
